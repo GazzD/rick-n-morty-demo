@@ -1,1 +1,78 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: get_schwifty;
+    src: url(assets/fonts/get_schwifty.ttf) format("truetype");
+}
+  
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    background-color: #52198e;
+}
+
+.title {
+    text-align: center;
+    margin: 2rem;
+    color: #00afc8;
+    font-family: get_schwifty;
+    font-size: 3em;
+    -webkit-text-stroke: 2px #88be55;
+    small {
+        font-size: 60%;
+    }
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    place-content: center;
+}
+
+.character {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 10px 0;
+    max-width: 529px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all 0.2 ease-in-out;
+    &:hover {
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.24);
+      cursor: pointer;
+    }
+    img {
+      opacity: 0.7;
+      width: 100%;
+      transition: opacity 0.7;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  
+    .description {
+      padding: 10px;
+      color: white;
+
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        
+        .left {
+            flex: 25%;
+            font-weight: 900;
+        }
+        .right {
+            color: #88be55;
+            font-weight: 900;
+        }
+      }
+    }
+  }
+  
