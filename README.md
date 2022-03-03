@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2. 
 
-Made with love just for fun prupouses.
+Made with love just for fun purposes.
 
 ![Demo](demo.png)
 
