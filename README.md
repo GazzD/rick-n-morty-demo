@@ -9,7 +9,7 @@ Made with love just for fun prupouses.
 
 Thanks to [@cheatmodes4](https://twitter.com/cheatmodes4/status/1499123518990168072?s=20&t=gtGxilcon9MMaVZZ4KwLmQ) on Twitter for push me to do it :D 
 
-The rules the challenge
+Rules of the challenge
 
 1. Use the [Rick and Morty API](https://rickandmortyapi.com/)
 1. Just 1 component (`app.component`)
